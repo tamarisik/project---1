@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+body {
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.header-logo {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 10px;
+
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(5, 5, 57);
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    float: right;
+    padding: 15px;
+}
+
+
+
+
+.header-text {
+    background-color: rgb(5, 5, 57);
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+
+
+}
+
+.text {
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.greet {
+    font-size: 35px;
+    color: rgb(41, 41, 208);
+    text-align: center;
+    padding: 40px;
+}
+
+
+.center-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+
+.photo-container img {
+    width: 410px;
+    height: 355px;
+
+}
+
+.photo-container img:hover {
+    background-color: blue;
+}
+
+.more {
+    background-color: rgb(2, 2, 41);
+    width: 100%;
+    padding: 40px;
+}
+
+.more-text {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.box {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 30px;
+}
+.item {
+    width: 300px;
+}
+.text2 {
+    line-height: 20px;
+}
+
+
+.article {
+ background-color: rgb(88, 88, 240);
+ height: 800px;
+ padding: 40px;
+
+}
+.button1 {
+    border: 2px solid white;
+    margin: 20px;
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    
+} 
+.box3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+} 
+.box4 {
+    margin: 20px;
+   text-align: center;
+}
+.big-div {
+    background-color: rgb(84, 84, 240);
+    padding: 50px;
+   text-align: center;
+}
+
+
+
+
+.footer {
+    background-color: rgb(4, 4, 47);
+    height: 800px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1fr;
+
+}
+
+
+
+.header-about {
+    background-color: rgb(5, 5, 57);
+    padding: 100px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+.copy {
+background-color: blue;
+
+}
